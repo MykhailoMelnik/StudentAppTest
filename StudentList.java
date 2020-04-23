@@ -3,7 +3,7 @@ public class StudentList {
 
     public void createStudent() {
 
-        System.out.println("Введіть ім'я:");
+        System.out.println("Введіть ім'я: test");
         String name = InputAction.inputString();
         System.out.println("Введіть № курсу:");
         Integer course = InputAction.inputInteger();

@@ -10,7 +10,7 @@ public class Student {
     }
 
     public void change() {
-        System.out.println("Введіть цифру для редагування");
+        System.out.println("Введіть цифру для редагування test");
         System.out.println("1 - ім'я; 2 - курс; 3 - стипендія; 0 - відміна\n");
         Integer number = InputAction.inputInteger();
         if (number == 1) {

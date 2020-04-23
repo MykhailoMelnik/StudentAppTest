@@ -14,7 +14,7 @@ public class InputAction {
         if (scanner.hasNextInt()) {
             resultInteger = scanner.nextInt();
         } else {
-            System.out.println("Помилка введіть лише число");
+            System.out.println("Помилка введіть лише число test");
             inputInteger();
         }
         return resultInteger;
@@ -25,7 +25,7 @@ public class InputAction {
         if (scanner.hasNextDouble()) {
             resultDouble = scanner.nextDouble();
         } else {
-            System.out.println("Помилка введіть число з плаваючою точкою");
+            System.out.println("Помилка введіть число з плаваючою точкою test");
             inputDouble();
         }
         return resultDouble;
